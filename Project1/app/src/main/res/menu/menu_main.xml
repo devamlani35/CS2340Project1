@@ -3,14 +3,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.project1.MainActivity">
     <item
+        android:id="@+id/homemenuoption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:title="@string/Home" />
+    <item
         android:id="@+id/schedulermenuoption"
         android:checkable="false"
         android:orderInCategory="100"
         android:title="@string/Scheduler"
         app:showAsAction="never" />
     <item
+        android:id="@+id/calendarmenuoption"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:enabled="false"
-        android:title="@string/Tutorial" />
+        android:title="@string/Calendar" />
 </menu>

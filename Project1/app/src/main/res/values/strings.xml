@@ -30,4 +30,5 @@
     <string name="overlapError">Event has overlap</string>
     <string name="succesfulAdd">Event has been successfully added</string>
     <string name="back">Back</string>
+    <string name="Description">Description</string>
 </resources>
